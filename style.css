@@ -1,0 +1,135 @@
+
+/* 
+	STYLE.CSS:
+	One stylesheet to rule them all.
+	
+	selector { property:value }
+	
+*/
+
+/* -------  Structure ------- */
+
+body {
+  margin: 0;
+  background-color: #e3e1db;
+}
+
+header {
+	height: 140px;
+	background-color: #403933;
+}
+
+footer {
+	height: 84px;
+	background-color: #403933;
+}
+
+.wrapper {
+	width: 580px;
+	margin: auto;	
+}
+
+img {
+ width: 100%;	
+}
+
+
+/* -------  Logo ------- */
+
+header h1 {
+	font-family: Georgia, serif;
+	color: #f0eee9;
+	margin: 0px;
+	padding-top: 24px;
+	font-size: 48px;
+	text-align:center;
+}
+
+header h2 {
+	font-family: Georgia, serif;
+	color: #e3e1dc;
+	margin: 0px;
+	padding-top: 16px;
+	font-size: 22px;
+	text-align: center;
+}
+
+/* -------  Type ------- */
+
+h1, h2 {
+	color: #403933;
+	font-family: 'Times New Roman', serif;
+}
+
+h1 { font-size: 38px;}
+h2 { font-size: 30px;}
+
+p, li {
+	font-family: Arial, sans-serif;
+	color: #2d2c2a;
+	font-size: 18px;
+	font-weight: 400;
+    line-height: 26px;
+}
+
+a {
+	font-weight: 700;
+	text-decoration: none;	
+}
+
+a:link { color: #38786a; }
+a:visited { color: #38786a; }
+a:hover { color: #403933; }
+a:active { color: #403933; }
+
+
+a:hover {
+	text-decoration: underline;	
+}
+
+footer p {
+	color: #fff;	
+	text-align: center;
+}
+footer a:link { color: #698378; }
+footer a:visited { color: #698378; }
+footer a:hover { color: #a4cdbc; }
+footer a:active { color: #a4cdbc; }
+
+
+/* -------  Elements ------- */
+
+img, iframe { border-radius: 8px;} 
+
+iframe { border: 1px solid #403933;}
+
+hr { border: .5px solid #403933;}
+
+/* -------  Portfolio Section ------- */
+
+.portfolio-item h3 {
+  text-align: center;
+}
+
+/* -------  Spacers ------- */  
+/* Note: There are better ways of creating space
+   in a web page, but this is an easy technique
+   for now. */
+
+.gap-sm {
+    height: 50px;
+    width: auto;
+}
+.gap-md {
+    height: 100px;
+    width: auto;
+}
+.gap-lg {
+    height: 200px;
+    width: auto;
+}
+
+.gap-footer {
+    height: 10px;
+    width: auto;
+}
